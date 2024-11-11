@@ -6,3 +6,6 @@
 #'
 #' @format A character vector.
 #' @name expected_positions
+#' #' @export
+"expected_positions"
+

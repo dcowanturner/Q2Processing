@@ -20,3 +20,5 @@ calculate_slopes <- function(Input.plate.data, Input_plate_metadata) {
   }
   return(output_plate_data)
 }
+
+

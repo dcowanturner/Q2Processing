@@ -6,4 +6,5 @@
 #'
 #' @format A character vector.
 #' @name combined_phenotypes_df
-NULL
+#' @export
+"combined_phenotypes_df"
