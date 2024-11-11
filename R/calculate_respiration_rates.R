@@ -1,4 +1,11 @@
-# Function to calculate respiration rates
+#' calculate_respiration_rates
+#'
+#' Function to calculate respiration rates
+#'
+#' @param combined_plate_data,R,O2_fraction
+#' @return combined_plate_data
+#' @export
+
 calculate_respiration_rates <- function(combined_plate_data, R, O2_fraction) {
   combined_plate_data <- combined_plate_data %>%
     mutate(

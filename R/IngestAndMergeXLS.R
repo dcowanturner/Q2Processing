@@ -1,4 +1,11 @@
-# Import all .xls files in the directory, process sheets, and merge into a single data frame
+#' IngestAndMergeXLS
+#'
+#' Import all .xls files in the directory, process sheets, and merge into a single data frame
+#'
+#' @param InputDir
+#' @return merged_data
+#' @export
+
 IngestAndMergeXLS <- function(InputDir) {
 
   # Check if the directory exists

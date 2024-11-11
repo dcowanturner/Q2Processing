@@ -1,3 +1,11 @@
+#' Q2IngestGRDC24
+#'
+#' Q2IngestGRDC24
+#'
+#' @param InputRawData
+#' @return all_sheets
+#' @export
+
 #GRDC 2024 Input format functions
 Q2IngestGRDC24 <- function(InputRawData) {
   # Check if the file exists

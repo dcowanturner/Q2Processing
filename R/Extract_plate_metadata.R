@@ -1,3 +1,11 @@
+#' Extract_plate_metadata
+#'
+#' Extract_plate_metadata
+#'
+#' @param Q2_input_metadata,day_col,plate_col,temp_col,location_col
+#' @return df_list
+#' @export
+
 Extract_plate_metadata <- function(Q2_input_metadata, day_col, plate_col, temp_col, location_col) {
   # Group by user-defined DAY and PLATE columns
   df_grouped <- Q2_input_metadata %>%

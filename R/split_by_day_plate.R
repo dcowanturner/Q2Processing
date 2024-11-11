@@ -1,3 +1,11 @@
+#' split_by_day_plate
+#'
+#' split_by_day_plate
+#'
+#' @param Q2_input_data,day_col,plate_col
+#' @return df_list
+#' @export
+
 #Split data by user-defined DAY and PLATE_NR column names
 split_by_day_plate <- function(Q2_input_data, day_col, plate_col) {
   # Dynamically use the column names provided by the user

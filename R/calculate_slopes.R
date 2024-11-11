@@ -1,3 +1,13 @@
+#' calculate_slopes
+#'
+#' Wrapper around Q2_Calculate_slopes - that allows runs Q2_Calculate_slopes on a loop over plates.
+#'
+#' @param Input.plate.data,Input_plate_metadata
+#' @return output_plate_data
+#' @export
+
+
+
 calculate_slopes <- function(Input.plate.data, Input_plate_metadata) {
   output_plate_data <- list()
 

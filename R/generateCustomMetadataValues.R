@@ -1,3 +1,10 @@
+#' generateCustomMetadataValues
+#'
+#' Function to create default metadata values with optional user settings
+#'
+#' @param LeafArea
+#' @return default metadata values with optional user settings
+#' @export
 
 #User settings
 # Function to create default metadata values with optional user settings

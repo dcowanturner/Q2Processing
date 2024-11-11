@@ -1,4 +1,10 @@
-
+#' createFormattedExcel
+#'
+#' Q2 Excel Metadata creation
+#'
+#' @param metadata_values,file_name,sample_design_data,raw_data
+#' @return Exported Excel sheet with raw/output data and metadata
+#' @export
 
 ### Q2 Excel Metadata creation
 createFormattedExcel <- function(

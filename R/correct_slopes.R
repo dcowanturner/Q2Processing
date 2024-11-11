@@ -1,4 +1,11 @@
-# Function to perform slope corrections based on blanks
+#' correct_slopes
+#'
+#' Function to perform slope corrections based on blanks
+#'
+#' @param output_plate_data,air_blank_positions,nitrogen_positions
+#' @return combined_plate_data
+#' @export
+
 correct_slopes <- function(output_plate_data, air_blank_positions, nitrogen_positions) {
   combined_plate_data <- dplyr::bind_rows(output_plate_data)
 
