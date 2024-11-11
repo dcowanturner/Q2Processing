@@ -6,6 +6,9 @@
 \usage{
 split_by_day_plate(Q2_input_data, day_col, plate_col)
 }
+\arguments{
+\item{Q2_input_data, day_col, plate_col}{Test test test}
+}
 \value{
 df_list
 }

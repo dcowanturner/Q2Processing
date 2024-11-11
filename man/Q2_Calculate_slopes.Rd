@@ -6,6 +6,9 @@
 \usage{
 Q2_Calculate_slopes(raw.data.clean, metadata)
 }
+\arguments{
+\item{raw.data.clean, R, metadata}{Test test test}
+}
 \value{
 slopes_r_squared_df
 }

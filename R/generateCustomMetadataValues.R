@@ -2,12 +2,9 @@
 #'
 #' Function to create default metadata values with optional user settings
 #'
-#' @param LeafArea
+#' @param LeafArea Test test test
 #' @return default metadata values with optional user settings
 #' @export
-
-#User settings
-# Function to create default metadata values with optional user settings
 generateCustomMetadataValues <- function(
     Data_Title = "e.g Loc_TOS1_23_Q2Respiration_Rawdata",
     Summary_Info = "Griffith field trial TOS1 2023",

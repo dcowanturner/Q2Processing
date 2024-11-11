@@ -24,6 +24,9 @@ generateCustomMetadataValues(
   FileVersion = ""
 )
 }
+\arguments{
+\item{LeafArea}{Test test test}
+}
 \value{
 default metadata values with optional user settings
 }

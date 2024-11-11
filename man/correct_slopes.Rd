@@ -6,6 +6,9 @@
 \usage{
 correct_slopes(output_plate_data, air_blank_positions, nitrogen_positions)
 }
+\arguments{
+\item{output_plate_data, air_blank_positions, nitrogen_positions}{Test test test}
+}
 \value{
 combined_plate_data
 }

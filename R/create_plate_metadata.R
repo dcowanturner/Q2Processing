@@ -2,10 +2,9 @@
 #'
 #' Creates metadata for each plate - adds standards to each plate.
 #'
-#' @param input_sample_metadata,input_plate_data,universal_settings,expected_positions
+#' @param input_sample_metadata,input_plate_data,universal_settings,expected_positions Test test test
 #' @return input_plate_metadata
 #' @export
-
 create_plate_metadata <- function(input_sample_metadata, input_plate_data, universal_settings, expected_positions) {
   input_plate_metadata <- list()
 

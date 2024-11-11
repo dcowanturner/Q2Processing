@@ -6,6 +6,9 @@
 \usage{
 add_bay_to_metadata(input_plate_metadata, bays)
 }
+\arguments{
+\item{input_plate_metadata, bays}{Test test test}
+}
 \value{
 input_plate_metadata
 }

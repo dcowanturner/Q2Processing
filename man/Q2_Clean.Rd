@@ -6,6 +6,9 @@
 \usage{
 Q2_Clean(raw.data)
 }
+\arguments{
+\item{raw.data}{Test test test}
+}
 \value{
 Clean Q2 data
 }

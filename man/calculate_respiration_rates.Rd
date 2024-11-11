@@ -6,6 +6,9 @@
 \usage{
 calculate_respiration_rates(combined_plate_data, R, O2_fraction)
 }
+\arguments{
+\item{combined_plate_data, R, O2_fraction}{Test test test}
+}
 \value{
 combined_plate_data
 }

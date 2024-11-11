@@ -11,6 +11,9 @@ createFormattedExcel(
   raw_data = NULL
 )
 }
+\arguments{
+\item{metadata_values, file_name, sample_design_data, raw_data}{Test test test}
+}
 \value{
 Exported Excel sheet with raw/output data and metadata
 }

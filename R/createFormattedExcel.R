@@ -2,11 +2,9 @@
 #'
 #' Q2 Excel Metadata creation
 #'
-#' @param metadata_values,file_name,sample_design_data,raw_data
+#' @param metadata_values,file_name,sample_design_data,raw_data Test test test
 #' @return Exported Excel sheet with raw/output data and metadata
 #' @export
-
-### Q2 Excel Metadata creation
 createFormattedExcel <- function(
     metadata_values = default_metadata_values,
     file_name = "Formatted_Metadata_and_Phenotypes.xlsx",

@@ -11,6 +11,9 @@ create_plate_metadata(
   expected_positions
 )
 }
+\arguments{
+\item{input_sample_metadata, input_plate_data, universal_settings, expected_positions}{Test test test}
+}
 \value{
 input_plate_metadata
 }

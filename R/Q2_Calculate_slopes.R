@@ -2,10 +2,9 @@
 #'
 #' Calculate slopes and R-squared values
 #'
-#' @param raw.data.clean,R,metadata
+#' @param raw.data.clean,R,metadata Test test test
 #' @return slopes_r_squared_df
 #' @export
-
 Q2_Calculate_slopes <- function(raw.data.clean,metadata) {
   start.time<- metadata$start.time[1]
   end.time<-  metadata$end.time[1]

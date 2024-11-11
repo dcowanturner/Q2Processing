@@ -6,6 +6,9 @@
 \usage{
 IngestAndMergeXLS(InputDir)
 }
+\arguments{
+\item{InputDir}{Test test test}
+}
 \value{
 merged_data
 }

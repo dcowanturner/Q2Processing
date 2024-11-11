@@ -12,6 +12,9 @@ Extract_plate_metadata(
   location_col
 )
 }
+\arguments{
+\item{Q2_input_metadata, day_col, plate_col, temp_col, location_col}{Test test test}
+}
 \value{
 df_list
 }
