@@ -7,7 +7,7 @@
 calculate_slopes(Input.plate.data, Input_plate_metadata)
 }
 \arguments{
-\item{Input.plate.data, Input_plate_metadata}{Test test test}
+\item{Input.plate.data}{test}
 }
 \value{
 output_plate_data

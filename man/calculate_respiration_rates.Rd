@@ -7,7 +7,7 @@
 calculate_respiration_rates(combined_plate_data, R, O2_fraction)
 }
 \arguments{
-\item{combined_plate_data, R, O2_fraction}{Test test test}
+\item{combined_plate_data}{Test}
 }
 \value{
 combined_plate_data

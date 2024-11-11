@@ -12,7 +12,7 @@ create_plate_metadata(
 )
 }
 \arguments{
-\item{input_sample_metadata, input_plate_data, universal_settings, expected_positions}{Test test test}
+\item{input_sample_metadata}{test}
 }
 \value{
 input_plate_metadata

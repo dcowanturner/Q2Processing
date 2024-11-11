@@ -2,7 +2,7 @@
 #'
 #' Function to perform slope corrections based on blanks
 #'
-#' @param output_plate_data,air_blank_positions,nitrogen_positions Test test test
+#' @param output_plate_data test
 #' @return combined_plate_data
 #' @export
 correct_slopes <- function(output_plate_data, air_blank_positions, nitrogen_positions) {

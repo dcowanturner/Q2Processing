@@ -2,7 +2,7 @@
 #'
 #' Function to calculate respiration rates
 #'
-#' @param combined_plate_data,R,O2_fraction Test test test
+#' @param combined_plate_data Test
 #' @return combined_plate_data
 #' @export
 calculate_respiration_rates <- function(combined_plate_data, R, O2_fraction) {
