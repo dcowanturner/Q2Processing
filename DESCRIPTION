@@ -1,0 +1,13 @@
+Package: Q2Processing
+Title: Deals with Q2 Data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Daniel", "Cowan-Turner", , "daniel.cowan-turner@anu.edu.au", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Imports raw Q2 data and sample list, calculates O2 consumption rates and formats output.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: openxlsx, readxl, tidyverse
