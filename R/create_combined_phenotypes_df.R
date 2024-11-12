@@ -211,9 +211,18 @@ create_combined_phenotypes_df <- function() {
   combined_phenotypes_df <- combined_phenotypes_df[!duplicated(combined_phenotypes_df$Name), ]
 
 
-  return(combined_phenotypes_df)
+  return(list(
+    combined_phenotypes_df = combined_phenotypes_df,
+    default_metadata_values = default_metadata_values
+  ))
 }
 
 # # Example usage
 # combined_df <- create_combined_phenotypes_df()
-# print(combined_df)
+
+# # Accessing each component from the list
+# combined_phenotypes <- combined_df$combined_phenotypes_df
+# metadata_values <- combined_df$default_metadata_values
+
+
+
