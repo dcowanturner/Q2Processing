@@ -21,7 +21,7 @@ calculate_slopes_plate_loop <- function (Input.plate.data, Input.plate.metadata,
                                            metadata,time_windows)
 
 
-    output <- left_join(metadata,Testout,by="Well")
+    output <- left_join(metadata,output,by="Well")
 
     output_plate_data[[i]] <- output
   }
