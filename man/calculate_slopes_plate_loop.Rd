@@ -11,11 +11,11 @@ calculate_slopes_plate_loop(
 )
 }
 \arguments{
-\item{raw.data.clean, metadata, time_windows}{Define overlapping time windows}
+\item{raw.data.clean, metadata, time_windows}{TEST}
 }
 \value{
 output_plate_data
 }
 \description{
-New version that calculate_slopes_for_periods
+Fixed  030225 - Issue with well matching
 }
